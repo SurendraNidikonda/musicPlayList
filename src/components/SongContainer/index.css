@@ -1,0 +1,42 @@
+.image {
+  height: 150px;
+  width: 250px;
+}
+.button {
+  border-style: none;
+  background-color: transparent;
+}
+.image-title {
+  display: flex;
+  flex-direction: row;
+}
+.delete-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.details {
+  padding-left: 30px;
+}
+.name {
+  color: #ffffff;
+}
+.genre {
+  color: #ffffff;
+}
+.duration {
+  color: #ffffff;
+  align-self: center;
+}
+.button {
+  color: #ffffff;
+  align-self: center;
+}
+.song-container {
+  list-style: none;
+}
+.songs-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
